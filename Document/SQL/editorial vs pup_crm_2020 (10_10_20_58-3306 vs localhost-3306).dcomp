@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Devart (www.devart.com), compare document file -->
+<!-- Modifying this generated file will probably render it invalid -->
+<CompareDocument>
+  <Properties>
+    <DatabaseProvider>59f90733-4d68-4fdf-82a7-f0fcbf5460aa</DatabaseProvider>
+    <ProviderVersion>8.1.45.0</ProviderVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+  </Properties>
+  <Source Type="Database">
+    <DataConnection>10.10.20.58</DataConnection>
+    <ConnectionString>User Id=root;Host=10.10.20.58;Character Set=utf8</ConnectionString>
+    <Category>00000000-0000-0000-0000-000000000000</Category>
+    <Schema>editorial</Schema>
+  </Source>
+  <Target Type="Database">
+    <DataConnection>localhost-pup_crm_2020</DataConnection>
+    <ConnectionString>User Id=root;Host=localhost;Database=pup_crm_2020;Character Set=utf8</ConnectionString>
+    <Category>00000000-0000-0000-0000-000000000000</Category>
+    <Schema>pup_crm_2020</Schema>
+  </Target>
+  <Filter Value="0" />
+  <HideUnmodifiedColumns>False</HideUnmodifiedColumns>
+  <Options>
+    <PropertyValue Name="MappingIgnoreSpaces">true</PropertyValue>
+    <PropertyValue Name="IgnoreBlobColumns">false</PropertyValue>
+    <PropertyValue Name="HideSystemSchemas">false</PropertyValue>
+    <PropertyValue Name="IgnoreMicroseconds">false</PropertyValue>
+    <PropertyValue Name="MappingIgnoreCase">false</PropertyValue>
+    <PropertyValue Name="MappingIgnoreUnderscores">false</PropertyValue>
+    <PropertyValue Name="IgnoreColumnsByMask">false</PropertyValue>
+    <PropertyValue Name="MappingColumnsMask" xml:space="preserve">*ModifiedDate*,*CreatedOn*,*UpdatedBy*</PropertyValue>
+    <PropertyValue Name="ExcludeObjectsByMask">false</PropertyValue>
+    <PropertyValue Name="ExcludeObjectsMask" xml:space="preserve">*Table*</PropertyValue>
+    <PropertyValue Name="IncludeObjectsByMask">false</PropertyValue>
+    <PropertyValue Name="IncludeObjectsMask" xml:space="preserve">*</PropertyValue>
+    <PropertyValue Name="IgnoreComputedColumns">true</PropertyValue>
+    <PropertyValue Name="ExcludeNewAddedObjects">false</PropertyValue>
+    <PropertyValue Name="CompareTables">true</PropertyValue>
+    <PropertyValue Name="CompareViews">true</PropertyValue>
+    <PropertyValue Name="RoundFloatTypes">false</PropertyValue>
+    <PropertyValue Name="RoundFloatTypesUpTo" xml:space="preserve">3</PropertyValue>
+    <PropertyValue Name="IgnoreLeadingSpaces">false</PropertyValue>
+    <PropertyValue Name="IgnoreTrailingSpaces">false</PropertyValue>
+    <PropertyValue Name="IgnoreCase">false</PropertyValue>
+    <PropertyValue Name="IgnoreEndOfLine">false</PropertyValue>
+    <PropertyValue Name="IsEmptyStringEqualsNull">false</PropertyValue>
+    <PropertyValue Name="IsIgnoreTime">false</PropertyValue>
+    <PropertyValue Name="ToleranceInterval">false</PropertyValue>
+    <PropertyValue Name="ToleranceIntervalValue" xml:space="preserve">0</PropertyValue>
+    <PropertyValue Name="CheckDifferent">true</PropertyValue>
+    <PropertyValue Name="CheckOnlyInSource">true</PropertyValue>
+    <PropertyValue Name="CheckOnlyInTarget">true</PropertyValue>
+    <PropertyValue Name="CheckIdentical">true</PropertyValue>
+  </Options>
+  <ModifiedObjects />
+  <SynchronizationOptions>
+    <PropertyValue Name="BulkInsert">true</PropertyValue>
+    <PropertyValue Name="LimitBulk">true</PropertyValue>
+    <PropertyValue Name="BulkMaxSize" xml:space="preserve">300000</PropertyValue>
+    <PropertyValue Name="UseCommitMode">false</PropertyValue>
+    <PropertyValue Name="ConvertFromArchiveEngine">false</PropertyValue>
+    <PropertyValue Name="CheckConcurrencyUpdates">false</PropertyValue>
+    <PropertyValue Name="IncludeUseDatabase">true</PropertyValue>
+    <PropertyValue Name="ExecuteAsSingleTransaction">false</PropertyValue>
+    <PropertyValue Name="DisableForeignKeys">true</PropertyValue>
+    <PropertyValue Name="DropKeys">false</PropertyValue>
+    <PropertyValue Name="DropCheckConstraints">false</PropertyValue>
+    <PropertyValue Name="DisableDmlTriggers">true</PropertyValue>
+    <PropertyValue Name="DisableDdlTriggers">false</PropertyValue>
+    <PropertyValue Name="SynchronizeViaFiles">false</PropertyValue>
+    <PropertyValue Name="BackupExtension">false</PropertyValue>
+    <PropertyValue Name="IncludePrintComments">false</PropertyValue>
+    <PropertyValue Name="ExcludeComments">false</PropertyValue>
+    <PropertyValue Name="CreateBackupFolder">true</PropertyValue>
+    <PropertyValue Name="BackupExtensionName" xml:space="preserve">.bak</PropertyValue>
+    <PropertyValue Name="GenerateScriptHeader">true</PropertyValue>
+    <PropertyValue Name="UseSchemaNamePrefix">false</PropertyValue>
+    <PropertyValue Name="UseSqlExtensionCommands">true</PropertyValue>
+    <PropertyValue Name="AllowDefaultValues">false</PropertyValue>
+    <PropertyValue Name="UseDelimiter">false</PropertyValue>
+    <PropertyValue Name="SynchronizeType">1</PropertyValue>
+    <PropertyValue Name="SynchronizationFileName" xml:space="preserve">D:\Project2020\CRM2020\Document\SQL\editorial vs pup_crm_2020 (10_10_20_58-3306 vs localhost-3306)_20200927-1848.sql</PropertyValue>
+    <PropertyValue Name="SynchronizationEditorFileName" xml:space="preserve" />
+    <PropertyValue Name="OpenScriptInEditor">true</PropertyValue>
+    <PropertyValue Name="RefreshAfterSynchronization">false</PropertyValue>
+    <PropertyValue Name="OpenScriptsFolder">false</PropertyValue>
+    <PropertyValue Name="PureScript">false</PropertyValue>
+    <PropertyValue Name="IsPartOfScript">false</PropertyValue>
+    <PropertyValue Name="IgnoreEncryptionProperty">false</PropertyValue>
+    <PropertyValue Name="CommitPageLength" xml:space="preserve">0</PropertyValue>
+  </SynchronizationOptions>
+  <Mapping>
+    <ComparedObjects>
+      <Object SourceName="all_published_textbook" TargetName="sys_paperbook" SourceType="View" TargetType="Table" CustomMapped="True">
+        <Key Name="Columns">
+          <Column OrderIndex="0" ColumnIndex="0" />
+        </Key>
+        <ComparedColumns CustomMapped="True">
+          <Column SourceName="p_product_id" TargetName="id" />
+          <Column SourceName="P_PRODUCT_TITLE" TargetName="name" />
+          <Column SourceName="P_PRODUCT_SERIAL_NAME" TargetName="serial_name" />
+          <Column SourceName="P_PRODUCT_SIGNATURE" TargetName="author" />
+          <Column SourceName="P_PRODUCT_EDITOR_NAME" TargetName="editor" />
+          <Column SourceName="P_PRODUCT_PUB_NAME" TargetName="department" />
+          <Column SourceName="P_PRODUCT_INTERNAL_NUM" TargetName="code" />
+          <Column SourceName="P_PRODUCT_ISBN" TargetName="isbn" />
+          <Column SourceName="P_PRODUCT_PRICE" TargetName="price" />
+          <Column SourceName="P_PRODUCT_REV" TargetName="edition" />
+          <Column SourceName="AUTHOR_SYNOPSIS" TargetName="about_author" />
+          <Column SourceName="CONTENT_SYNOPSIS" TargetName="brief_introduction" />
+          <Column SourceName="P_PRODUCT_BEFORE_ISBN" TargetName="pre_code" />
+          <Column SourceName="P_PRODUCT_SERIAL_ID" TargetName="serial_id" />
+        </ComparedColumns>
+      </Object>
+      <Object SourceName="apply_isbn_2020" TargetName="sys_series" SourceType="Table" TargetType="Table" IncludedInScript="False" CustomMapped="True" Unmapped="True" />
+    </ComparedObjects>
+  </Mapping>
+</CompareDocument>
